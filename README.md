@@ -1,4 +1,4 @@
-# Primitives
+# Centimani: A Performance Predictor to Select the Optimal AI Accelerator for DNN Training
 
 The micro-benchmarks is to benchmark operations that are important to deep learning on different hardware platforms.
 
