@@ -1,6 +1,6 @@
 # Primitives
 
-The micro-benchmarks is to benchmark operations that are important to deep learning on different hardware platforms.
+The computation micro-benchmarks is to benchmark operations that are important to deep learning on different hardware platforms.
 
 # Types of Operations
 
@@ -19,9 +19,3 @@ Recurrent neural networks (RNN) are a class of neural networks that is powerful 
 ## Transformer
 
 Transformer is a component used in many neural network designs for processing sequential data, such as natural language text, genome sequences, sound signals or time series data.
-
-## All-Reduce
-
-Neural networks today are often trained across multiple GPUs or even multiple systems, each with multiple GPUs. There are two main categories of techniques for doing this: synchronous and asynchronous. Synchronous techniques rely on keeping the parameters on all instances of the model synchronized, usually by making sure all instances of the model have the same copy of the gradients before taking an optimization step. The primitive usually used to perform this operation is called All-Reduce.
-
-All-Reduce based on the number of ranks and the size of the data.
